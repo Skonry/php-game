@@ -1,0 +1,11 @@
+{
+    "mainControllerClass": "ExpeditionController",
+    "actions": {
+        "cancel-expedition": "cancelExpedition",
+        "send-to-expedition": "sendToExpedition",
+        "index": "index"
+    },
+    "textContents" : {
+        
+    }
+}

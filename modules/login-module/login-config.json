@@ -1,0 +1,17 @@
+{
+    "mainControllerClass": "LoginController",
+    "actions": {
+        "register": "displayRegistrationPage",
+        "register-verify": "verifyRegistrationData",
+        "login-verify": "verifyLoginData",
+        "index": "displayLoginPage"
+    },
+    "login": {
+        "minLength": 3,
+        "maxLength": 24
+    },
+    "password": {
+        "minLength": 8,
+        "maxLength": 64
+    }
+}
