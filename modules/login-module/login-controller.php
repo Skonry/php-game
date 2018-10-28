@@ -10,6 +10,7 @@ require 'login-view.php';
 require 'register-view.php';
 
 class LoginController extends Controller {
+    
     public function __construct($config) {
         $this->config = $config;
     }

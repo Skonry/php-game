@@ -1,6 +1,7 @@
 <?php
 
 class LoginView extends View {
+    
     public function __construct($loginManager = null) {
         parent::__construct();
         $this->loginManager = $loginManager;
@@ -10,10 +11,6 @@ class LoginView extends View {
         if ($this->loginManager) {
             $this->data['error'] = $this->loginManager->error;
         }
-        $this->render();
-    }
-
-    private function render() {
         require 'login-template.php';
     }
 }

@@ -1,10 +1,12 @@
 <?php
 
 class LoginManager extends Manager {
+
     public function __construct() {
         $this->db = openDbConnection();
         $this->error = null;
     }
+    
     public function verifyCredentials($login, $password) {
         $stmt = $this->db->prepare('SELECT player_login, player_password FROM players WHERE player_login=?'); 
         $stmt->bind_param('s', $login);

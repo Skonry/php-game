@@ -1,6 +1,7 @@
 <?php
 
 abstract class View {
+    
     public function __construct() {
         $this->data = [];
     }

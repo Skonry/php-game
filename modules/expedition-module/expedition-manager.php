@@ -1,6 +1,7 @@
 <?php
 
 class ExpeditionManager extends Manager {
+    
     public function __construct() {
         $this->db = openDbConnection();
         $this->expeditionStatus = null;

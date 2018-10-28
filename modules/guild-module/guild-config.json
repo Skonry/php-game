@@ -1,0 +1,6 @@
+{
+    "mainControllerClass": "GuildController",
+    "actions": {
+        "index": "index"
+    }
+}

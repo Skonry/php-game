@@ -1,6 +1,7 @@
 <?php
 
 class RegisterManager extends Manager {
+    
     public function __construct($config) {
         $this->config = $config;
         $this->db = openDbConnection();
