@@ -1,0 +1,6 @@
+{
+    "mainControllerClass": "MailController",
+    "actions": {
+        "index": "index"
+    }
+}

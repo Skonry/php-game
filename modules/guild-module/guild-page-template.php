@@ -4,6 +4,7 @@
         <title>Gildia</title>
     </head>
     <body>
+        <?php require 'menu-bar.php' ?>
         <h1>
             <?php echo $this->data['guildName'] ?>
         </h1>

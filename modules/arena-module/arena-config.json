@@ -1,0 +1,7 @@
+{
+    "mainControllerClass": "ArenaController",
+    "actions": {
+        "index": "index",
+        "duel": "duel"
+    }
+}

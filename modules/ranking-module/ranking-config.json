@@ -1,0 +1,6 @@
+{
+    "mainControllerClass": "RankingController",
+    "actions": {
+        "index": "index"
+    }
+}

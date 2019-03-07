@@ -1,9 +1,5 @@
 <?php
 
-require '../core/controller.php';
-require '../core/manager.php';
-require '../core/view.php';
-require '../core/open-db-connection.php';
 require 'expedition-manager.php';
 require 'expedition-view.php';
 

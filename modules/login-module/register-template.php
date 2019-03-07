@@ -30,7 +30,7 @@
     </style>
 </head>
 <body>
-    <form action="/php-game-engine/register/register-verify" method="POST" class="register_player_form">
+    <form action="/php-game-engine/login/register-verify" method="POST" class="register_player_form">
         <div class="form_item">
             <label for="player_login">Login</label>
             <input type="text" name="player_login">

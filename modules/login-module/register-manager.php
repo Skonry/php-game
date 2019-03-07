@@ -21,6 +21,7 @@ class RegisterManager extends Manager {
     }
 
     public function createNewAccount($data) {
+        var_dump($data);
         $hashedPassword = password_hash($data['player_password'], PASSWORD_DEFAULT);
         $currentDate = date('Y-m-d');
         $stmt = $this->db->prepare('INSERT INTO players (player_login, player_password, player_email, registration_date) VALUES (?, ?, ?, ?)');

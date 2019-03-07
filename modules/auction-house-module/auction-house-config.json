@@ -1,0 +1,6 @@
+{
+    "mainControllerClass": "AuctionHouseController",
+    "actions": {
+        "index": "index"
+    }
+}

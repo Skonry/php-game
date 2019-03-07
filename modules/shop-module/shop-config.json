@@ -1,0 +1,8 @@
+{
+    "mainControllerClass": "ShopController",
+    "actions": {
+        "index": "index",
+        "buy-item": "buyItem",
+        "sell-item": "sellItem"
+    }
+}

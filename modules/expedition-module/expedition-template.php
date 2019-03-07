@@ -4,7 +4,7 @@
     <title>Wyprawa</title>
 </head>
 <body>
-    <?php //require '../menu-bar.php'; ?>
+    <?php require 'menu-bar.php' ?>
     <?php if ($this->data['expeditionStatus'] === 'isAtHome') { ?>
         <h1>Udaj się na wyprawę!</h1>
         <form action="expedition/send-to-expedition" method="POST">

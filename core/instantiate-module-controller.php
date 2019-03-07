@@ -3,6 +3,10 @@
 function instantiateModuleController($moduleName, $config) {
     $path = '../modules/' . $moduleName . '-module/' . $moduleName . '-controller.php';
     if (file_exists($path)) {
+        require 'controller.php';
+        require 'manager.php';
+        require 'view.php';
+        require 'open-db-connection.php';
         require $path;
         return new $config->mainControllerClass($config);
     }

@@ -45,5 +45,6 @@
             <span class="error_message"><?php echo $this->data['error'] ?></span>
         <?php } ?>
     </form>
+    <a href="/php-game-engine/login/register">Załóż konto</a>
 </body>
 </html>
